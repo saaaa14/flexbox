@@ -1,0 +1,22 @@
+.container-satu {
+    max-width: 800px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+.thumbnail {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.thumbnail img {
+    width: 250px;
+}
+@media( min-width: 600px ) {
+    .container-satu {
+        display: flex;
+        justify-content: space-around;
+    }
+    }
+body {
+    background-color: rgb(82, 144, 244);
+}
